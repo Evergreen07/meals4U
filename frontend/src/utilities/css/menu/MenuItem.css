@@ -1,0 +1,41 @@
+.card{
+    border-radius: 10px;
+    background-color: rgba(255,255,255);
+
+    width: 13rem;
+    min-height: 13rem;
+    overflow: hidden;
+
+    margin-bottom: 0.5rem;
+    box-shadow: 0.3rem 0.3rem 0.5rem rgba(190,190,190);
+}
+
+.card>img{
+    width: 13rem;
+    height: 9rem;
+}
+
+.card-details{
+    padding: 0.2rem 0.5rem;
+}
+
+.card-details>div{
+    margin-bottom: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#price{
+    color: darkslategray;
+}
+
+.add{
+   margin-top: 0.2rem; 
+   color: green;
+   cursor: pointer;
+}
+
+.add:hover{
+    transform: scale(1.1);
+}

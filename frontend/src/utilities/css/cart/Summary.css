@@ -1,0 +1,47 @@
+.checkout-details{
+    display: flex;
+    justify-content: space-between;
+
+    margin: 2rem 1rem;
+    padding-top: 1rem;
+}
+
+.details{
+    width: 45%;
+}
+
+.details>div{
+    margin-bottom: 1.5rem;
+}
+
+.details>div>h2{
+    margin-bottom: .5rem;
+}
+
+.summary{
+    padding: 1rem;
+    border: 1px solid rgba(60,60,60);
+    border-radius: 1rem;
+    width: 40%;
+}
+
+.summary>h2{
+    padding-bottom: 0.5rem;
+}
+
+.summary-items{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0rem;
+}
+
+.summary-items>h4, .details>div>h4{
+    font-family: 'Bree Serif', serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.total{
+    color: tomato;
+    
+}

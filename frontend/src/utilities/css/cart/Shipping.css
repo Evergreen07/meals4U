@@ -1,0 +1,36 @@
+
+
+.shipping-form>h3, .shipping-form>div>h3{
+    margin: 0rem 1rem;
+    font-family: 'Bree Serif', serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.shipping-form>input, .shipping-form>div>input, #country-select{
+    display: block;
+    width: 45%;
+    height: 1.5rem;
+
+    margin: 0rem 1rem 2rem 1rem;
+    padding: 0.5rem;
+
+    outline: none;
+    border: none;
+    border-radius: 0.8rem;
+    box-shadow: 0.2rem 0.2rem 0.4rem #fd96a9;
+
+    font-size: 1rem;
+}
+
+#country-select{
+    width: 90%;
+    height: 2.5rem;
+    padding-left: 3.2rem;
+    margin-left: -0.1rem;
+}
+
+.shipping-form>div{
+    display: flex;
+    justify-content: space-between;
+}

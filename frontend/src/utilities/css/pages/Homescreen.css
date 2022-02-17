@@ -1,0 +1,134 @@
+.banner{
+    /* border: 2px solid black; */
+    height: 64vh;
+
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+    gap: 3rem;
+}
+
+/* .banner-body, .banner-picture{
+    border: black 1px solid;
+    
+} */
+
+.banner-body{
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+
+.banner-body>h1>span{
+    background: -webkit-linear-gradient(
+        45deg,
+        #FDC830,
+        #F37335,
+        #FF5F6D
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-body>h1{
+    font-size: 2.2rem;
+    color: rgb(50, 50, 50);
+}
+
+.banner-body>h4{
+    margin: 1rem 0rem;
+    width: 25rem;
+
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Bree Serif', serif;
+
+    letter-spacing: 1.2px;
+    color: rgb(50, 50, 50);
+}
+
+.banner-button>button{
+    border-radius: 15px;
+    border: none;
+    margin: 0.5rem 1rem 0.5rem 0rem;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#order{
+    border: none;
+    border-radius: 1rem;
+    color: #fceedd;
+    background-image: linear-gradient(
+        135deg,
+        #FDC830,
+        #F37335,
+        #FF5F6D
+    );
+    cursor: pointer;
+}
+
+#order:hover{
+    transform: scale(1.05);
+}
+
+#download{
+    border: 1.8px solid coral;
+    background: none;
+    color: rgb(60, 60, 60);
+}
+
+#download:hover{
+    background: -webkit-linear-gradient(
+        45deg,
+        #FDC830,
+        #F37335,
+        #FF5F6D
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-picture{
+    margin-right: 3.5rem;
+}
+
+.banner-picture>img{
+    margin-top: 0.5rem;
+    width: 27rem;
+    height: 24rem;
+}
+
+.img1{
+    max-width: 22rem;
+    height: 16rem;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 5rem;
+}
+
+.img2{
+    position: absolute;
+    top: 58.5%;
+    right: 5%;
+
+    max-width: 11rem;
+    height: 9rem;
+
+    border-radius: 50%;
+    border: 0.4rem solid #f8e1e5;
+}
+
+.img3{
+    position: absolute;
+    top: 64%;
+    right: 28.5%;
+
+    max-width: 10rem;
+    height: 8rem;
+}
+
+/* 32/25 1440px */
